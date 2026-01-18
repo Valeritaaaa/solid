@@ -48,4 +48,3 @@ class RectangleOriginal extends ShapeOriginal {
         return height;
     }
 }
-

@@ -34,7 +34,6 @@ class EmployeeOriginal implements WorkerOriginal {
         System.out.println("Employee is sleeping");
     }
 }
-
 class RobotOriginal implements WorkerOriginal {
     @Override
     public void work() {
@@ -46,7 +45,7 @@ class RobotOriginal implements WorkerOriginal {
         // This method doesn't make sense for a robot
         // Implementation might not be meaningful
     }
-
+    
     @Override
     public void sleep() {
         // This method doesn't make sense for a robot
