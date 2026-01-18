@@ -1,8 +1,8 @@
 public class CarOriginal {
-    private EngineOriginall engine;
+    private EngineOriginal engine;
 
     public CarOriginal() {
-        this.engine = new EngineOriginall();
+        this.engine = new EngineOriginal();
     }
 
     public void start() {
